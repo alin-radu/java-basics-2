@@ -2,7 +2,7 @@ package section18ExceptionHandling;
 
 import java.util.Scanner;
 
-public class ExceptionDemo {
+public class ExceptionBasics {
     public static void main(String[] args) {
         int a, b, c;
 
