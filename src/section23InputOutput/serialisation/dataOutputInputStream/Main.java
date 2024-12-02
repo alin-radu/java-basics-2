@@ -1,4 +1,4 @@
-package section23InputOutput.serialisation.dataOutputStream;
+package section23InputOutput.serialisation.dataOutputInputStream;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
