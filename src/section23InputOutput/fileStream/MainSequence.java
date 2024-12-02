@@ -1,4 +1,4 @@
-package section23InputOutput;
+package section23InputOutput.fileStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
