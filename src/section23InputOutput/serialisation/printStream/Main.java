@@ -17,7 +17,7 @@ class Student {
     }
 }
 
-public class MainPrintStream {
+public class Main {
     public static void main(String[] args) throws Exception {
 
         Student sWrite = new Student();
