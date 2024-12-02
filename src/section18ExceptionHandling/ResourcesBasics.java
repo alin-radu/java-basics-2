@@ -7,7 +7,7 @@ public class ResourcesBasics {
 
     static void Divide() throws Exception {
 
-        String filePath = "/Users/alin-radu/alinSpinjitzu/personal/courses/Java-general/java-basics/2-Learn-JAVA-Programming-Beginner-to-Master-Abdul/java-basics-2/src/Test.txt";
+        String filePath = "/Users/alin-radu/alinSpinjitzu/personal/courses/Java-general/java-basics/2-Learn-JAVA-Programming-Beginner-to-Master-Abdul/java-basics-2/src/test.txt";
         try (FileInputStream fi = new FileInputStream(filePath);
              Scanner sc = new Scanner(fi)) {
             int a = sc.nextInt();
