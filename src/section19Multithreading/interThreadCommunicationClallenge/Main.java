@@ -74,14 +74,16 @@ class Student extends Thread {
     private static Integer studentCount = 0;
 
     public Student(String name, WhiteBoard wb) {
-        studentID = ++studentCount;
+        studentID = studentCount++;
         this.name = name;
         this.wb = wb;
     }
 
-    public void run() {
+    public void addStudentToClassroom() {
         wb.addStudentToClassroom(studentID);
+    }
 
+    public void run() {
         String text;
 
         do {
@@ -105,6 +107,11 @@ public class Main {
         Student s2 = new Student("2. Bobby", wb);
         Student s3 = new Student("3. Carmen", wb);
         Student s4 = new Student("4. Danny", wb);
+
+        s1.addStudentToClassroom();
+        s2.addStudentToClassroom();
+        s3.addStudentToClassroom();
+        s4.addStudentToClassroom();
 
         t.start();
 
